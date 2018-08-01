@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="kata.js"></script>
+</head>
+
+<body>
+    <ol>
+        <li>Display the numbers from 1 to 20. (1, 2, 3, ...,19, 20)</li>
+        <p>
+                console.log("Display the numbers from 1 to 20");
+                for(let counter = 1; counter <21; counter++) {
+                   console.log(counter);
+                }
+        </p>
+        <li>Display the even numbers from 1 to 20. (2, 4, 6, ..., 18, 20)</li>
+        <p>
+                console.log("Display the EVEN numbers from 1 to 20");
+                for(let counter = 0; counter <21; counter++)
+                if ((counter % 2) == 0)
+                {
+                   console.log(counter);
+                }
+        </p>
+        <li>Display the odd numbers from 1 to 20. (1, 3, 5, ..., 17, 19)</li>
+        <p>
+                console.log("Display the ODD numbers from 1 to 20");
+                for(let counter = 0; counter <20; counter++)
+                if ((counter % 2) == 1)
+                {
+                   console.log(counter);
+                }
+        </p>
+        <li>Display the multiples of 5 up to 100. (5, 10, 15, ..., 95, 100)</li>
+        <p>
+                console.log("Display the multiples of 5 up to 100");
+                for(let counter = 5; counter <101; counter+=5)
+                {
+                    console.log(counter);
+                 }
+        </p>
+        <li>Display the square numbers (Links to an external site.)Links to an external site. up to 100. (1, 4, 9, ...,
+        81, 100)</li>
+        <p>
+                console.log("Display the square numbers up to 100");
+                for (let counter = 1; counter <= 10; counter = counter + 1) {
+                    console.log(counter * counter);
+                }
+        </p>
+        <li>Display the numbers counting backwards from 20 to 1. (20, 19, 18, ..., 2, 1)</li>
+        <p>
+                console.log("Display the numbers counting backwards from 20 to 1");
+                for (let counter = 20; counter >0; counter--) {
+                    console.log(counter)
+                }
+        </p>
+        <li>Display the even numbers counting backwards from 20. (20, 18, 16, ..., 4, 2)</li>
+        <p>
+                console.log("Display the even numbers counting backwards from 20");
+                for (let counter = 20; counter >0; counter--)
+                if ((counter % 2) ==0) {
+                    console.log(counter);
+                }
+        </p>
+        <li>Display the odd numbers from 20 to 1, counting backwards. (19, 17, 15, ..., 3, 1)</li>
+        <p>
+                console.log("Display the odd numbers from 20 to 1, counting backwards");
+                for (let counter = 20; counter >0; counter--)
+                    if ((counter % 2) ==1) {
+                        console.log(counter);
+                    }
+        </p>
+        <li>Display the multiples of 5, counting down from 100. (100, 95, 90, ..., 10, 5)</li>
+        <p>
+                console.log("Display the multiples of 5, counting down from 100");
+                for (let counter = 100; counter >0; counter-=5) {
+                    console.log(counter);
+                }
+        </p>
+        <li>Display the square numbers, counting down from 100. (100, 81, 64, ..., 4, 1)</li>
+        <p>
+                console.log("Display the square numbers, counting down from 100");
+                for (let counter = 10; counter >= 1; counter = counter - 1) {
+                    console.log(counter * counter);
+                }
+        </p>
+    </ol>
+</body>
+
+</html>
